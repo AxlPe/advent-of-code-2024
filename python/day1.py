@@ -5,7 +5,7 @@ ls_two = []
 
 with open("inputs/input1.txt") as f:
     for line in f.readlines():
-        a, b = line.strip().split("   ")
+        a, b = line.strip().split()
         
         ls_one.append(int(a))
         ls_two.append(int(b))
