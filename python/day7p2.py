@@ -4,7 +4,7 @@ total = 0
 
 
 def is_valid(target, n, nums, pos):
-    if pos >= len(nums):
+    if pos >= len(nums) or n > target:
         if n == target:
             return True
         else:
