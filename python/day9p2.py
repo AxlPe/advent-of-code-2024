@@ -12,8 +12,7 @@ for i, c in enumerate(data):
         files[file_id] = (pos, int(c))
         file_id += 1
     else:
-        if c != "0":
-            free_space.append((pos, int(c)))
+        free_space.append((pos, int(c)))
     
     pos += int(c)
 
